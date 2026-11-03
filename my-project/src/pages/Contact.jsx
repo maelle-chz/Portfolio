@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-
+import Navbar from "../components/Navbar";
 const adobeApps = [
   { name: "After Effects", src: "/banner/ae.svg" },
   { name: "Premiere Pro", src: "/banner/pr.svg" },
@@ -12,6 +12,7 @@ const adobeApps = [
 export default function Contact() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-black px-4 md:pt-10 pt-5 text-white sm:px-6 sm:pt-24">
+      <Navbar />
       {/* Contact info */}
       <section className="Adorn-Engraved-Expanded mx-auto max-w-5xl py-8 text-center sm:py-12">
         <h1 className="mb-6 text-3xl font-bold sm:mb-9 sm:text-4xl">Contact</h1>
@@ -76,62 +77,6 @@ export default function Contact() {
             </div>
           ))}
         </div>
-      </section>
-
-      {/* Contact form */}
-      <section className="mx-auto max-w-md pb-12 sm:pb-16">
-        <form className="space-y-5">
-          <div>
-            <label htmlFor="name" className="block text-sm sm:text-base">
-              Name*
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              autoComplete="name"
-              required
-              placeholder="Your name..."
-              className="mt-2 w-full rounded-md border border-white/20 bg-transparent p-3 text-base text-white placeholder:text-white/50 focus:border-[#F82173] focus:outline-none focus:ring-1 focus:ring-[#F82173]"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="email" className="block text-sm sm:text-base">
-              Email*
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              required
-              placeholder="Your email..."
-              className="mt-2 w-full rounded-md border border-white/20 bg-transparent p-3 text-base text-white placeholder:text-white/50 focus:border-[#F82173] focus:outline-none focus:ring-1 focus:ring-[#F82173]"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="message" className="block text-sm sm:text-base">
-              Message*
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              required
-              placeholder="Your message..."
-              className="mt-2 w-full resize-y rounded-md border border-white/20 bg-transparent p-3 text-base text-white placeholder:text-white/50 focus:border-[#F82173] focus:outline-none focus:ring-1 focus:ring-[#F82173]"
-            />
-          </div>
-
-          <button
-            type="submit"
-            className="w-full rounded-full bg-white px-4 py-3 font-bold text-black transition hover:bg-[#F82173] hover:text-white"
-          >
-            Send Message
-          </button>
-        </form>
       </section>
 
       <Footer />
