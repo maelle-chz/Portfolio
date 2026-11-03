@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 import Contact from "./pages/Contact";
 
 import RennesAnimationFestival from "../src/pages/RennesFestival.jsx";
@@ -15,7 +15,7 @@ import Home from "../src/pages/Home.jsx";
 export default function App() {
   return (
     <>
-      <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
