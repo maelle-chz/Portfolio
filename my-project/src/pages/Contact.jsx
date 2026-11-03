@@ -14,8 +14,10 @@ export default function Contact() {
     <main className="min-h-screen overflow-x-hidden bg-black px-4 md:pt-10 pt-5 text-white sm:px-6 sm:pt-24">
       <Navbar />
       {/* Contact info */}
-      <section className="Adorn-Engraved-Expanded mx-auto max-w-5xl py-8 text-center sm:py-12">
-        <h1 className="mb-6 text-3xl font-bold sm:mb-9 sm:text-4xl">Contact</h1>
+      <section className="Adorn-Engraved-Expanded mx-auto max-w-5xl px-4 py-8 text-center sm:px-6 sm:py-12">
+        <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl">
+          Contact
+        </h1>
 
         <div className="mx-auto max-w-2xl space-y-4 text-base leading-relaxed sm:text-lg">
           <p className="break-words ">
@@ -58,7 +60,7 @@ export default function Contact() {
       </section>
 
       {/* Software */}
-      <section className="mx-auto max-w-3xl pb-10 sm:pb-12">
+      <section className="mx-auto max-w-3xl pb-10 sm:pb-20">
         <h2 className="mb-5 text-center text-lg sm:text-xl">Softwares</h2>
 
         <div className="mx-auto flex max-w-xl flex-wrap justify-center gap-3 sm:gap-4">
