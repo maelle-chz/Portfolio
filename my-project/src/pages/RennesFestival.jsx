@@ -8,7 +8,7 @@ export default function Rennes() {
     {
       src: "../images/rennes/img_1.png",
       alt: "Rennes scene 1",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_2.png",
