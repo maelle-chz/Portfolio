@@ -66,7 +66,7 @@ export default function Rennes() {
   };
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-[#080808] text-white">
       <Navbar />
       <section className="mx-auto max-w-5xl px-4 py-8 text-center sm:px-6 sm:py-12">
         <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl">

@@ -11,7 +11,7 @@ const adobeApps = [
 
 export default function Contact() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-black px-4 md:pt-10 pt-5 text-white sm:px-6 sm:pt-24">
+    <main className="min-h-screen overflow-x-hidden bg-[#080808] px-4 md:pt-10 pt-5 text-white sm:px-6 sm:pt-24">
       <Navbar />
       {/* Contact info */}
       <section className="Adorn-Engraved-Expanded mx-auto max-w-5xl px-4 py-8 text-center sm:px-6 sm:py-12">

@@ -97,7 +97,7 @@ export default function Banner() {
 
         <li>
           <a
-            href="https://bsky.app/"
+            href="https://bsky.app/profile/aranwen03.bsky.social"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Bluesky"

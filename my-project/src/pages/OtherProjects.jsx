@@ -48,7 +48,7 @@ export default function OtherProjects() {
   const imageClass = "w-full cursor-zoom-in object-cover hover:opacity-80";
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-[#080808] text-white">
       <Navbar />
 
       {/* Introduction */}

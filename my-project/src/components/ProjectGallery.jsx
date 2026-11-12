@@ -41,7 +41,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectGallery() {
   return (
-    <section className="bg-[#000000] pt-12">
+    <section className="bg-[#080808] pt-12">
       <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-12 px-6 pb-12">
         {[projects.slice(0, 3), projects.slice(3, 6)].map((row, rowIndex) => (
           <div
