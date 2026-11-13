@@ -10,37 +10,37 @@ export default function SharpPotion() {
     {
       src: "../images/sharp-potion/img_1.png",
       alt: "Sharp Potion scene 1",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/sharp-potion/img_2.png",
       alt: "Sharp Potion scene 2",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/sharp-potion/img_3.png",
       alt: "Sharp Potion scene 3",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/sharp-potion/img_4.png",
       alt: "Sharp Potion scene 4",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/sharp-potion/img_5.png",
       alt: "Sharp Potion scene 5",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/sharp-potion/img_6.png",
       alt: "Sharp Potion scene 6",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
-      src: "../images/sharp-potion/img_7.png",
+      src: "../images/sharp-potion/img_7_v2.png",
       alt: "Sharp Potion scene 7",
-      title: "Lorem ipsum",
+      title: "",
     },
   ];
 

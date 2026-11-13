@@ -13,42 +13,42 @@ export default function Rennes() {
     {
       src: "../images/rennes/img_2.png",
       alt: "Rennes scene 2",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_3.png",
       alt: "Rennes scene 3",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_4.jpg",
       alt: "Rennes scene 4",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_5.jpg",
       alt: "Rennes scene 5",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_6.png",
       alt: "Rennes scene 6",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_7.png",
       alt: "Rennes scene 7",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_8.png",
       alt: "Rennes scene 8",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/rennes/img_9.png",
       alt: "Rennes scene 9",
-      title: "Lorem ipsum",
+      title: "",
     },
   ];
 
@@ -124,7 +124,7 @@ export default function Rennes() {
           controls
           preload="metadata"
         >
-          <source src="../videos/Olivia.mp4" type="video/mp4" />
+          <source src="../videos/AFCA.mp4" type="video/mp4" />
           Your browser does not support HTML video.
         </video>
       </section>

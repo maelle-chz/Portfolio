@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Sharp Potion",
-    image: "../../images/landing_page/img_6.png",
+    image: "../../images/landing_page/img_7_2.png",
     link: "/sharp-potion",
     alt: "Sharp Potion",
   },

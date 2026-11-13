@@ -73,12 +73,12 @@ export default function Arise() {
 
           <p className="py-4">
             <span className="px-1 underline">Credit:</span>
-            Concept and lineart made by Maëlle Chaize
+            Colour and various details made by the artist of the studio Hot
+            Chili Games, Victor Mauduy.
           </p>
 
           <p>
-            Colour and various details made by the artist of the studio Hot
-            Chili Games, Victor Mauduy.
+            
           </p>
         </div>
       </section>
