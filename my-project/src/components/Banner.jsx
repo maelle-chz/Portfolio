@@ -1,13 +1,4 @@
 export default function Banner() {
-  const apps = [
-    { name: "After Effects", src: "/banner/ae.svg" },
-    { name: "Premiere Pro", src: "/banner/pr.svg" },
-    { name: "Photoshop", src: "/banner/ps.svg" },
-    { name: "Fresco", src: "/banner/fr.svg" },
-    { name: "Toon Boom Harmony", src: "/banner/harmony.svg" },
-    { name: "Blender", src: "/banner/blender.svg" },
-  ];
-
   return (
     <section className="relative isolate h-[360px] w-full overflow-hidden sm:h-[400px] md:h-[420px]">
       {/* Background image */}
@@ -19,7 +10,7 @@ export default function Banner() {
 
       {/* Image overlays */}
       <div className="absolute inset-0 bg-purple-950/30" />
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 via-transparent to-purple-950/50" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#F82173]/20 via-transparent to-[#F82173]/10" />
 
       {/* Main texts */}
       <div className="absolute inset-0 flex flex-col items-center justify-center px-4 pb-8 text-center text-white">
@@ -37,20 +28,15 @@ export default function Banner() {
       </div>
 
       {/* Software icons */}
-      <div className="absolute bottom-[68px] left-0 flex w-full flex-wrap justify-center gap-2 px-3 sm:bottom-[76px] sm:left-8 sm:w-auto sm:justify-start sm:px-0">
-        {apps.map((app) => (
-          <div
-            key={app.name}
-            title={app.name}
-            className="flex h-8 w-8 items-center justify-center rounded-md border border-white/20 bg-purple-950/40 p-1.5 shadow-sm backdrop-blur-sm transition-transform duration-200 hover:-translate-y-1 sm:h-10 sm:w-10"
-          >
-            <img
-              src={app.src}
-              alt={app.name}
-              className="h-full w-full object-contain"
-            />
-          </div>
-        ))}
+      <div
+        className="absolute left-1/2 -translate-x-1/2 bottom-12 w-3xs flex flex-wrap justify-center px-3
+                md:left-7 md:translate-x-0 md:bottom-[68px] md:w-sm md:justify-start"
+      >
+        <img
+          src="/images/banner/skills.png"
+          alt="Creative software skills"
+          className="h-full w-full object-cover"
+        />
       </div>
 
       {/* Social links */}
