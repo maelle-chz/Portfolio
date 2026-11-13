@@ -8,27 +8,27 @@ export default function OtherProjects() {
     {
       src: "../images/others/img_1.png",
       alt: "Others scene 1",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/others/img_2.png",
       alt: "Others scene 2",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/others/img_3.png",
       alt: "Others scene 3",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/others/img_4.png",
       alt: "Others scene 4",
-      title: "Lorem ipsum",
+      title: "",
     },
     {
       src: "../images/others/img_5.png",
       alt: "Others project",
-      title: "Lorem ipsum",
+      title: "",
     },
   ];
 

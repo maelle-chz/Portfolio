@@ -8,22 +8,22 @@ export default function Catfish() {
     {
       src: "../images/catfish/img_1.jpg",
       alt: "Catfish project",
-      title: "Catfish project",
+      title: "",
     },
     {
       src: "../images/catfish/img_2.png",
       alt: "Catfish scene 1",
-      title: "Scene 1",
+      title: "",
     },
     {
       src: "../images/catfish/img_3.png",
       alt: "Catfish scene 2",
-      title: "Scene 2",
+      title: "",
     },
     {
       src: "../images/catfish/img_4.png",
       alt: "Catfish scene 3",
-      title: "Scene 3",
+      title: "",
     },
   ];
 

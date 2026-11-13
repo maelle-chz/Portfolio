@@ -8,32 +8,32 @@ export default function Arise() {
     {
       src: "../images/arise/img_1.png",
       alt: "Arise scene 1",
-      title: "Scene 1",
+      title: "",
     },
     {
       src: "../images/arise/img_2.jpg",
       alt: "Arise scene 2",
-      title: "Scene 2",
+      title: "",
     },
     {
       src: "../images/arise/img_3.png",
       alt: "Arise scene 3",
-      title: "Scene 3",
+      title: "",
     },
     {
       src: "../images/arise/img_4.png",
       alt: "Arise scene 4",
-      title: "Scene 4",
+      title: "",
     },
     {
       src: "../images/arise/img_5.png",
       alt: "Arise scene 5",
-      title: "Scene 5",
+      title: "",
     },
     {
       src: "../images/arise/img_6.png",
       alt: "Arise scene 6",
-      title: "Scene 6",
+      title: "",
     },
   ];
 
