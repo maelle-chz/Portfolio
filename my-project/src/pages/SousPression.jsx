@@ -6,33 +6,108 @@ import Navbar from "../components/Navbar";
 export default function SousPression() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  const images = Array.from({ length: 17 }, (_, i) => {
-    const index = i + 1;
-
-    return {
-      src: `../images/sous-pression/img_${index}.${index === 2 ? "png" : "jpg"}`,
-      alt: `Sous Pression scene ${index}`,
-      title: [
-        "Affiche film",
-        "Colorscript",
-        "Affiche promotionnelle",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-      ][i],
-    };
-  });
+  const images = [
+    {
+      src: "../images/sous-pression/img_1.webp",
+      alt: "Scene sous pression 1",
+      title: "Affiche film",
+    },
+    {
+      src: "../images/sous-pression/img_2.webp",
+      alt: "",
+      title: "Colorscript",
+    },
+    {
+      src: "../images/sous-pression/img_3.webp",
+      alt: "",
+      title: "Affiche promotionnelle",
+    },
+    {
+      src: "../images/sous-pression/img_4.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_5.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_6.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_7.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_8.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_9.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_10.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_11.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_12.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_13.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_14.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_15.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_16.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_17.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_18.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/img_19.webp",
+      alt: "",
+      title: "",
+    },
+    {
+      src: "../images/sous-pression/PFE_props_bouteille_turn.png",
+      alt: "",
+      title: "",
+    },
+  ];
 
   const selectedImage =
     selectedImageIndex !== null ? images[selectedImageIndex] : null;
@@ -81,7 +156,7 @@ export default function SousPression() {
       {/* Image gallery */}
 
       <section className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 pb-16 sm:grid-cols-2">
-        {images.slice(0, 16).map((image, index) => (
+        {images.slice(0, 19).map((image, index) => (
           <div
             key={image.src}
             className="group relative h-72 w-full overflow-hidden rounded-xs"
@@ -107,12 +182,11 @@ export default function SousPression() {
       <section className="mx-auto max-w-6xl px-6 pb-12">
         <div className="group relative overflow-hidden rounded-xs">
           <img
-            src={images[16].src}
-            alt={images[16].alt}
+            src={images[19].src}
+            alt={images[19].alt}
             onClick={() => setSelectedImageIndex(16)}
             className="w-full cursor-zoom-in object-cover transition-opacity duration-300 group-hover:opacity-60"
           />
-
 
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#F82173]/70 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <p className="Adorn-Engraved-Expanded px-2 text-center text-4xl text-white">
