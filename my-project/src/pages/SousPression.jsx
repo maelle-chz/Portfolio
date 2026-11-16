@@ -13,17 +13,17 @@ export default function SousPression() {
       title: "Affiche film",
     },
     {
-      src: "../images/sous-pression/img_2.webp",
+      src: "../images/sous-pression/img_10.webp",
       alt: "",
       title: "Colorscript",
     },
     {
-      src: "../images/sous-pression/img_3.webp",
+      src: "../images/sous-pression/img_19.webp",
       alt: "",
       title: "Affiche promotionnelle",
     },
     {
-      src: "../images/sous-pression/img_4.webp",
+      src: "../images/sous-pression/img_4.jpg",
       alt: "",
       title: "",
     },
@@ -33,17 +33,17 @@ export default function SousPression() {
       title: "",
     },
     {
-      src: "../images/sous-pression/img_6.webp",
+      src: "../images/sous-pression/img_15.webp",
       alt: "",
       title: "",
     },
     {
-      src: "../images/sous-pression/img_7.webp",
+      src: "../images/sous-pression/img_16.webp",
       alt: "",
       title: "",
     },
     {
-      src: "../images/sous-pression/img_8.webp",
+      src: "../images/sous-pression/img_11.webp",
       alt: "",
       title: "",
     },
